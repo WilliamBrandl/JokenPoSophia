@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Slackey", sans-serif;
+    font-weight: 400;
+
+
+}
+
+
+
+
+body {
+
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+
+
+
+
+}
+
+.img-sophia {
+
+    position: fixed;
+    z-index: -1;
+
+}
+
+
+
+
+.container {
+
+background-color: aqua;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    height: 280px;
+    left: -200px;
+    
+
+
+
+}
+
+.buttons {
+
+    margin-top: 30px;
+    display: flex;
+    gap: 40px;
+}
+
+
+
+
+button {
+
+    padding: 10px;
+    font-size: 50px;
+    border-color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: opacity 0.5s ease-in-out;
+    margin-bottom: 20px;
+
+
+}
+
+button:hover {
+    opacity: 0.3;
+
+}
+
+#rock {
+
+    background-color: fuchsia
+}
+
+#paper {
+
+    background-color: chocolate
+}
+
+#scissours {
+
+    background-color: deeppink;
+}
+
+.texto {
+
+    color: rgb(237, 81, 190);
+
+
+}
+
+
+p {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: deeppink;
+}
+
+.machine-score span {
+
+    color: rgb(207, 17, 17)
+}
+
+.machine-score span {
+
+    color: rgb(30, 225, 30);
+}
