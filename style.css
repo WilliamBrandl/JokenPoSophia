@@ -11,7 +11,7 @@
 
 
 
-body {
+body { 
 
     background-size: cover;
     display: flex;
@@ -116,4 +116,23 @@ p {
 .machine-score span {
 
     color: rgb(30, 225, 30);
+}
+
+@media screen and (max-width: 415px){
+    
+    .img-sophia{
+
+        width: 200%;
+        height: 100%;
+
+    }
+
+    .container{
+
+       position: static;
+       padding: 0%;
+       height: auto;
+       margin-bottom: -182px;
+    }
+
 }
